@@ -36,10 +36,10 @@ export default function Navigation() {
   return (
     <div className="Naviagation">
       <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="static" style={{ background: "red" }}>
+        <AppBar position="static" style={{ background: "white" }}>
           <Toolbar>
         
-
+           <h5 className="hello">Hello and welcome to our movie website</h5>
             
             <Typography
               variant="h6"

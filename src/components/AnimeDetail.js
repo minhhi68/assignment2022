@@ -27,19 +27,7 @@ export default function AnimeDetail() {
                     <div style={{backgroundImage: 'linear-gradient(white), white), url('+animeList.background+') ', backgroundSize: 'cover'}}>
                         <div className="card-body">
                             <div className="row">
-                                <div>
-                                    <img style={{float: 'center'}} src={animeList.image} alt={animeList.name} className="img-fluid"/>
-                                </div>
-                                <div>
-                                    <h1 style={{color: 'white'}}>{animeList.name}</h1>
-                                    <p style={{color: 'white'}}>Status: {animeList.status}</p>
-                                    <p style={{color: 'white'}}>Total Episode: {animeList.episode}</p>
-                                    <p style={{color: 'white'}}>Studio: {animeList.studio}</p>
-                                    <h4 style={{color: 'cyan'}}>Description</h4>
-                                    <div style={{left: '0'}} className="bottom-line2"></div>
-                                    <p style={{color: 'white'}}>{animeList.description}</p>
-                                    <div style={{right: '0'}} className="bottom-line2"></div>
-                                </div>
+                               
                             </div>
                         </div>
                     </div>

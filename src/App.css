@@ -6,6 +6,12 @@
   color: red;
 }
 
+.hello {
+  color: blue;
+  text-align: center;
+  /* position: fixed; */
+}
+
 .bottom-line{
   border-bottom: 1px solid #0761e7;
 }
@@ -23,7 +29,7 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
+  background-color: white;
   color: white;
   text-align: center;
   border-top: 1px solid #0761e7;
