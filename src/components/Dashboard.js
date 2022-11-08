@@ -52,14 +52,14 @@ export default function Dashboard() {
                   <TableCell>{anime.id}</TableCell>
                   <TableCell>
                     <img
-                      style={{ width: "200px", height: "300px" }}
+                      style={{ width: "300px", height: "500px" }}
                       src={anime.image}
                     ></img>
                   </TableCell>
                   <TableCell>{anime.name}</TableCell>
                   <TableCell>{anime.status}</TableCell>
                   <TableCell>{anime.episode}</TableCell>
-                  <TableCell>{anime.studio}</TableCell>
+                  {/* <TableCell>{anime.studio}</TableCell> */}
                   <TableCell>
                     <p style={{ textOverflow: "ellipsis" }}>
                       {anime.description}

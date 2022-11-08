@@ -24,7 +24,7 @@ export default function AnimeDetail() {
         <div className="row">
             <div className="col-12">
                 <div className="card">
-                    <div style={{backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.6)), url('+animeList.background+') ', backgroundSize: 'cover'}}>
+                    <div style={{backgroundImage: 'linear-gradient(white), white), url('+animeList.background+') ', backgroundSize: 'cover'}}>
                         <div className="card-body">
                             <div className="row">
                                 <div>

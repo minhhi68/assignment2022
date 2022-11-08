@@ -38,9 +38,7 @@ export default function Navigation() {
       <Box sx={{ flexGrow: 1 }}>
         <AppBar position="static" style={{ background: "red" }}>
           <Toolbar>
-          <Link to={`/`} style={{ textDecoration: "none", color:"white" }}>
-            About us
-            </Link>
+        
 
             
             <Typography

@@ -9,6 +9,8 @@ import Footer from './components/Footer';
 import { Routes, Route } from 'react-router-dom';
 import Protected from './components/Protected';
 import Dashboard from './components/Dashboard'
+import About from './components/About';
+import Contact from './components/Contact';
 // import Add from './components/Add'
 // import Edit from './components/Edit';
 
@@ -22,6 +24,8 @@ function App() {
         <Route path="/Anime/:id" element={<AnimeDetail/>}/>
         <Route path="/Watch/:id" element={<AnimeWatch/>}/>
         <Route path='/dashboard' element={<Protected><Dashboard/></Protected>}></Route>
+        <Route path='/about' element={<About />}></Route>
+        <Route path='/contact' element={<Contact />}></Route>
         {/* <Route path='/add' element={<Protected><Add/></Protected>}></Route> */}
         {/* <Route path=':id/edit' element={<Protected><Edit/></Protected>}></Route> */}
       </Routes>
